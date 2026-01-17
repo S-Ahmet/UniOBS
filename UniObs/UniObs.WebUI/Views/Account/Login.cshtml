@@ -1,0 +1,177 @@
+﻿@model UniObs.WebUI.Models.LoginViewModel
+@{
+    Layout = null;
+    ViewData["Title"] = "OBS Giriş";
+}
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@ViewData["Title"]</title>
+
+    <!-- Bootstrap CDN (buton / form-control still works) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+          crossorigin="anonymous" />
+
+    <style>
+        body {
+            margin: 0;
+            background: radial-gradient(circle at top, #2563eb 0, #0f172a 45%, #020617 100%);
+            min-height: 100vh;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        }
+
+        .obs-login-wrapper {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 16px;
+        }
+
+        .obs-login-card {
+            background: #ffffff;
+            border-radius: 18px;
+            box-shadow: 0 20px 40px rgba(15, 23, 42, 0.25);
+            padding: 32px 28px;
+            width: 100%;
+            max-width: 420px;
+        }
+
+        .obs-login-title {
+            font-size: 1.6rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 4px;
+            color: #0f172a;
+        }
+
+        .obs-login-subtitle {
+            font-size: 0.9rem;
+            text-align: center;
+            color: #6b7280;
+            margin-bottom: 20px;
+        }
+
+        .obs-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.75rem;
+            padding: 4px 10px;
+            border-radius: 999px;
+            background: #e0f2fe;
+            color: #0369a1;
+            font-weight: 500;
+            margin: 0 auto 16px auto;
+        }
+
+        .obs-label {
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: #111827;
+        }
+
+        .form-control {
+            border-radius: 10px;
+        }
+
+            .form-control:focus {
+                box-shadow: 0 0 0 0.15rem rgba(37, 99, 235, 0.3);
+                border-color: #2563eb;
+            }
+
+        .obs-login-btn {
+            border-radius: 999px;
+            font-weight: 600;
+            padding: 10px 0;
+            background: linear-gradient(90deg, #2563eb, #1d4ed8);
+            border: none;
+        }
+
+            .obs-login-btn:hover {
+                background: linear-gradient(90deg, #1d4ed8, #1e3a8a);
+            }
+
+        .obs-footer-text {
+            font-size: 0.75rem;
+            color: #9ca3af;
+            text-align: center;
+            margin-top: 12px;
+        }
+
+            .obs-footer-text span {
+                font-weight: 600;
+                color: #4b5563;
+            }
+
+        .validation-summary-errors {
+            background: #fef2f2;
+            border-radius: 10px;
+            padding: 8px 10px;
+            font-size: 0.85rem;
+            margin-bottom: 10px;
+            color: #b91c1c;
+            border: 1px solid #fecaca;
+        }
+    </style>
+</head>
+<body>
+    <div class="obs-login-wrapper">
+        <div class="obs-login-card">
+
+            <div class="text-center mb-2">
+                <div class="obs-badge">
+                    <span>🎓</span>
+                    <span>Üniversite OBS • Giriş Modülü</span>
+                </div>
+            </div>
+
+            <h3 class="obs-login-title">Üniversite OBS Giriş</h3>
+            <p class="obs-login-subtitle">
+                Lütfen öğrenci ya da akademisyen hesabınızla sisteme giriş yapın.
+            </p>
+
+            @* ModelState’ten gelen alan hataları *@
+            <div asp-validation-summary="All" class="text-danger"></div>
+
+            @* AuthService / Controller’dan gelen genel mesaj *@
+            @if (!string.IsNullOrEmpty(Model.Message))
+            {
+                <div class="alert alert-info py-2 px-3 mb-3" style="border-radius: 10px;">
+                    @Model.Message
+                </div>
+            }
+
+            <form asp-action="Login" method="post" novalidate>
+                <div class="mb-3">
+                    <label asp-for="Email" class="form-label obs-label">E-posta</label>
+                    <input asp-for="Email" class="form-control" autocomplete="username" />
+                    <span asp-validation-for="Email" class="text-danger" style="font-size:0.8rem;"></span>
+                </div>
+
+                <div class="mb-4">
+                    <label asp-for="Password" class="form-label obs-label">Şifre</label>
+                    <input asp-for="Password" class="form-control" autocomplete="current-password" type="password" />
+                    <span asp-validation-for="Password" class="text-danger" style="font-size:0.8rem;"></span>
+                </div>
+
+                <button type="submit" class="btn btn-primary w-100 obs-login-btn">
+                    Giriş Yap
+                </button>
+            </form>
+
+            <div class="obs-footer-text">
+                Girişte sorun yaşıyorsan <span>OBS destek birimi</span> ile iletişime geçebilirsin.
+            </div>
+        </div>
+    </div>
+
+    @* client-side validation scriptleri *@
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+</body>
+</html>

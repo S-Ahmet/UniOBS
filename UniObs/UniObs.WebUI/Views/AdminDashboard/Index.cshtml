@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Admin Paneli";
+}
+
+<div class="container mt-5">
+    <h2>Admin Paneli</h2>
+    <hr />
+
+    <p>
+        Hoş geldin <strong>@ViewBag.Email</strong> <br />
+        Rolün: <strong>@ViewBag.Role</strong>
+    </p>
+
+    <a asp-controller="Account"
+       asp-action="Logout"
+       class="btn btn-outline-danger">
+        Çıkış Yap
+    </a>
+</div>

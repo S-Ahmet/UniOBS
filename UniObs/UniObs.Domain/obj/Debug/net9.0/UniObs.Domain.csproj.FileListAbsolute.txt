@@ -1,0 +1,11 @@
+C:\Users\sadik\source\repos\UniObs\UniObs.Domain\bin\Debug\net9.0\UniObs.Domain.deps.json
+C:\Users\sadik\source\repos\UniObs\UniObs.Domain\bin\Debug\net9.0\UniObs.Domain.dll
+C:\Users\sadik\source\repos\UniObs\UniObs.Domain\bin\Debug\net9.0\UniObs.Domain.pdb
+C:\Users\sadik\source\repos\UniObs\UniObs.Domain\obj\Debug\net9.0\UniObs.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sadik\source\repos\UniObs\UniObs.Domain\obj\Debug\net9.0\UniObs.Domain.AssemblyInfoInputs.cache
+C:\Users\sadik\source\repos\UniObs\UniObs.Domain\obj\Debug\net9.0\UniObs.Domain.AssemblyInfo.cs
+C:\Users\sadik\source\repos\UniObs\UniObs.Domain\obj\Debug\net9.0\UniObs.Domain.csproj.CoreCompileInputs.cache
+C:\Users\sadik\source\repos\UniObs\UniObs.Domain\obj\Debug\net9.0\UniObs.Domain.dll
+C:\Users\sadik\source\repos\UniObs\UniObs.Domain\obj\Debug\net9.0\refint\UniObs.Domain.dll
+C:\Users\sadik\source\repos\UniObs\UniObs.Domain\obj\Debug\net9.0\UniObs.Domain.pdb
+C:\Users\sadik\source\repos\UniObs\UniObs.Domain\obj\Debug\net9.0\ref\UniObs.Domain.dll

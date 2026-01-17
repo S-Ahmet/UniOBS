@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sadik\\source\\repos\\UniObs\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{04920DA9-0B53-48B1-9002-EA0803472C80}|UniObs.WebUI\\UniObs.WebUI.csproj|c:\\users\\sadik\\source\\repos\\uniobs\\uniobs.webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04920DA9-0B53-48B1-9002-EA0803472C80}|UniObs.WebUI\\UniObs.WebUI.csproj|solutionrelative:uniobs.webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27C8C023-9FDC-454E-90E3-8507675C67CD}|UniObs.Infrastructure\\UniObs.Infrastructure.csproj|c:\\users\\sadik\\source\\repos\\uniobs\\uniobs.infrastructure\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27C8C023-9FDC-454E-90E3-8507675C67CD}|UniObs.Infrastructure\\UniObs.Infrastructure.csproj|solutionrelative:uniobs.infrastructure\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04920DA9-0B53-48B1-9002-EA0803472C80}|UniObs.WebUI\\UniObs.WebUI.csproj|c:\\users\\sadik\\source\\repos\\uniobs\\uniobs.webui\\views\\account\\verifycode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04920DA9-0B53-48B1-9002-EA0803472C80}|UniObs.WebUI\\UniObs.WebUI.csproj|solutionrelative:uniobs.webui\\views\\account\\verifycode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04920DA9-0B53-48B1-9002-EA0803472C80}|UniObs.WebUI\\UniObs.WebUI.csproj|c:\\users\\sadik\\source\\repos\\uniobs\\uniobs.webui\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04920DA9-0B53-48B1-9002-EA0803472C80}|UniObs.WebUI\\UniObs.WebUI.csproj|solutionrelative:uniobs.webui\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04920DA9-0B53-48B1-9002-EA0803472C80}|UniObs.WebUI\\UniObs.WebUI.csproj|c:\\users\\sadik\\source\\repos\\uniobs\\uniobs.webui\\models\\verifycodeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04920DA9-0B53-48B1-9002-EA0803472C80}|UniObs.WebUI\\UniObs.WebUI.csproj|solutionrelative:uniobs.webui\\models\\verifycodeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27C8C023-9FDC-454E-90E3-8507675C67CD}|UniObs.Infrastructure\\UniObs.Infrastructure.csproj|c:\\users\\sadik\\source\\repos\\uniobs\\uniobs.infrastructure\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27C8C023-9FDC-454E-90E3-8507675C67CD}|UniObs.Infrastructure\\UniObs.Infrastructure.csproj|solutionrelative:uniobs.infrastructure\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88E96F1-789A-4C64-9CAE-5FB6E755284C}|UniObs.Application\\UniObs.Application.csproj|c:\\users\\sadik\\source\\repos\\uniobs\\uniobs.application\\contracts\\services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A88E96F1-789A-4C64-9CAE-5FB6E755284C}|UniObs.Application\\UniObs.Application.csproj|solutionrelative:uniobs.application\\contracts\\services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88E96F1-789A-4C64-9CAE-5FB6E755284C}|UniObs.Application\\UniObs.Application.csproj|c:\\users\\sadik\\source\\repos\\uniobs\\uniobs.application\\contracts\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A88E96F1-789A-4C64-9CAE-5FB6E755284C}|UniObs.Application\\UniObs.Application.csproj|solutionrelative:uniobs.application\\contracts\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VerifyCode.cshtml",
+              "DocumentMoniker": "C:\\Users\\sadik\\source\\repos\\UniObs\\UniObs.WebUI\\Views\\Account\\VerifyCode.cshtml",
+              "RelativeDocumentMoniker": "UniObs.WebUI\\Views\\Account\\VerifyCode.cshtml",
+              "ToolTip": "C:\\Users\\sadik\\source\\repos\\UniObs\\UniObs.WebUI\\Views\\Account\\VerifyCode.cshtml",
+              "RelativeToolTip": "UniObs.WebUI\\Views\\Account\\VerifyCode.cshtml",
+              "ViewState": "AgIAALUAAAAAAAAAAAAwwM8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-18T11:24:46.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\sadik\\source\\repos\\UniObs\\UniObs.WebUI\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "UniObs.WebUI\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\sadik\\source\\repos\\UniObs\\UniObs.WebUI\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "UniObs.WebUI\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAUwIwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T11:24:24.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VerifyCodeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\sadik\\source\\repos\\UniObs\\UniObs.WebUI\\Models\\VerifyCodeViewModel.cs",
+              "RelativeDocumentMoniker": "UniObs.WebUI\\Models\\VerifyCodeViewModel.cs",
+              "ToolTip": "C:\\Users\\sadik\\source\\repos\\UniObs\\UniObs.WebUI\\Models\\VerifyCodeViewModel.cs",
+              "RelativeToolTip": "UniObs.WebUI\\Models\\VerifyCodeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T11:24:08.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\sadik\\source\\repos\\UniObs\\UniObs.Infrastructure\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "UniObs.Infrastructure\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\sadik\\source\\repos\\UniObs\\UniObs.Infrastructure\\Services\\EmailService.cs",
+              "RelativeToolTip": "UniObs.Infrastructure\\Services\\EmailService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAUwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T11:23:56.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\sadik\\source\\repos\\UniObs\\UniObs.Application\\Contracts\\Services\\IEmailService.cs",
+              "RelativeDocumentMoniker": "UniObs.Application\\Contracts\\Services\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\sadik\\source\\repos\\UniObs\\UniObs.Application\\Contracts\\Services\\IEmailService.cs",
+              "RelativeToolTip": "UniObs.Application\\Contracts\\Services\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T11:23:48.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\sadik\\source\\repos\\UniObs\\UniObs.Infrastructure\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "UniObs.Infrastructure\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\sadik\\source\\repos\\UniObs\\UniObs.Infrastructure\\Services\\AuthService.cs",
+              "RelativeToolTip": "UniObs.Infrastructure\\Services\\AuthService.cs",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAUwLMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T11:23:35.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\sadik\\source\\repos\\UniObs\\UniObs.Application\\Contracts\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "UniObs.Application\\Contracts\\Services\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\sadik\\source\\repos\\UniObs\\UniObs.Application\\Contracts\\Services\\IAuthService.cs",
+              "RelativeToolTip": "UniObs.Application\\Contracts\\Services\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T11:23:16.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sadik\\source\\repos\\UniObs\\UniObs.WebUI\\Program.cs",
+              "RelativeDocumentMoniker": "UniObs.WebUI\\Program.cs",
+              "ToolTip": "C:\\Users\\sadik\\source\\repos\\UniObs\\UniObs.WebUI\\Program.cs",
+              "RelativeToolTip": "UniObs.WebUI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T19:34:20.541Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

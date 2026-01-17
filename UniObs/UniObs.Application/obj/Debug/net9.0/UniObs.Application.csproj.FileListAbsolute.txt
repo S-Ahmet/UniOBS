@@ -1,0 +1,15 @@
+C:\Users\sadik\source\repos\UniObs\UniObs.Application\bin\Debug\net9.0\UniObs.Application.deps.json
+C:\Users\sadik\source\repos\UniObs\UniObs.Application\bin\Debug\net9.0\UniObs.Application.dll
+C:\Users\sadik\source\repos\UniObs\UniObs.Application\bin\Debug\net9.0\UniObs.Application.pdb
+C:\Users\sadik\source\repos\UniObs\UniObs.Application\bin\Debug\net9.0\UniObs.Domain.dll
+C:\Users\sadik\source\repos\UniObs\UniObs.Application\bin\Debug\net9.0\UniObs.Domain.pdb
+C:\Users\sadik\source\repos\UniObs\UniObs.Application\obj\Debug\net9.0\UniObs.Application.csproj.AssemblyReference.cache
+C:\Users\sadik\source\repos\UniObs\UniObs.Application\obj\Debug\net9.0\UniObs.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sadik\source\repos\UniObs\UniObs.Application\obj\Debug\net9.0\UniObs.Application.AssemblyInfoInputs.cache
+C:\Users\sadik\source\repos\UniObs\UniObs.Application\obj\Debug\net9.0\UniObs.Application.AssemblyInfo.cs
+C:\Users\sadik\source\repos\UniObs\UniObs.Application\obj\Debug\net9.0\UniObs.Application.csproj.CoreCompileInputs.cache
+C:\Users\sadik\source\repos\UniObs\UniObs.Application\obj\Debug\net9.0\UniObs.A.79ABBD68.Up2Date
+C:\Users\sadik\source\repos\UniObs\UniObs.Application\obj\Debug\net9.0\UniObs.Application.dll
+C:\Users\sadik\source\repos\UniObs\UniObs.Application\obj\Debug\net9.0\refint\UniObs.Application.dll
+C:\Users\sadik\source\repos\UniObs\UniObs.Application\obj\Debug\net9.0\UniObs.Application.pdb
+C:\Users\sadik\source\repos\UniObs\UniObs.Application\obj\Debug\net9.0\ref\UniObs.Application.dll
